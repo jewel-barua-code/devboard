@@ -1,11 +1,11 @@
-document.getElementById('discover').addEventListener('click', function(event){
+document.getElementById('discover').addEventListener('click', function(){
     window.location.href = './blogs.html'
 })
 
 document.getElementById('background-color').addEventListener('click', function(){
-    var x = Math.floor(Math.random() * 256);
-    var y = Math.floor(Math.random() * 256);
-    var z = Math.floor(Math.random() * 256);
-    var bgColor = "rgb(" + x + "," + y + "," + z + ")";
+    var red = Math.floor(Math.random() * 256);
+    var green = Math.floor(Math.random() * 256);
+    var blue = Math.floor(Math.random() * 256);
+    var bgColor = "rgb(" + red + "," + green + "," + blue + ")";
     document.getElementById('body-color').style.backgroundColor = bgColor;
 })
