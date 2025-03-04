@@ -49,57 +49,113 @@
           </div>
         </div>
       </div>
-    </section>
-    <main class="container mx-auto">
-      <!-- Task Section -->
-      <div class="mt-6">
-        <div class="grid grid-cols-3 gap-4">
-          <div class="col-span-2 bg-blue-100 p-4 rounded-2xl">
-            <div class="grid grid-cols-4 gap-4">
-              <div
-                class="flex items-center justify-center bg-base-100 p-16 gap-4 rounded-2xl col-span-1"
-              >
-                <div class="bg-blue-200 p-4 rounded-full">
-                  <img src="./assets/checkbox.png" alt="" />
+      <main class="container mx-auto">
+        <!-- Task Section -->
+        <div class="mt-6">
+          <div class="grid grid-cols-3 gap-4">
+            <div class="col-span-2 p-4 bg-blue-100 rounded-2xl">
+              <div class="grid grid-cols-4 gap-4">
+                <div
+                  class="flex items-center justify-center bg-base-100 p-16 gap-4 rounded-2xl col-span-1"
+                >
+                  <div class="bg-blue-200 p-4 rounded-full">
+                    <img src="./assets/checkbox.png" alt="" />
+                  </div>
+                  <div>
+                    <p>Task Assigned</p>
+                    <h5 class="text-3xl font-bold">05</h5>
+                  </div>
                 </div>
-                <div>
-                  <p>Task Assigned</p>
-                  <h5 class="text-3xl font-bold">05</h5>
+                <div
+                  id="discover"
+                  class="flex items-center justify-center bg-gradient-to-r from-indigo-600 to-indigo-300 text-white p-16 gap-4 rounded-2xl col-span-2 cursor-pointer"
+                >
+                  <div>
+                    <img src="./assets/board.png" alt="" />
+                  </div>
+                  <div>
+                    <h2 class="text-2xl">Discover Something New Today</h2>
+                  </div>
+                </div>
+                <div
+                  class="flex items-center justify-center bg-base-100 p-16 gap-4 rounded-2xl col-span-1"
+                >
+                  <div id="background-color" class="bg-blue-200 p-4 rounded-full">
+                    <img src="./assets/calender.png" alt="" />
+                  </div>
+                  <div>
+                    <h2 class="text-lg">
+                      Wed, <br /><span class="font-bold">Jul 28 2025</span>
+                    </h2>
+                  </div>
                 </div>
               </div>
-              <div
-                id="discover"
-                class="flex items-center justify-center bg-gradient-to-r from-indigo-600 to-indigo-300 text-white p-16 gap-4 rounded-2xl col-span-2 cursor-pointer"
-              >
-                <div>
-                  <img src="./assets/board.png" alt="" />
-                </div>
-                <div>
-                  <h2 class="text-2xl">Discover Something New Today</h2>
+            </div>
+            <div class="bg-blue-100 text-center rounded-2xl">
+              <h3>Activity Log</h3>
+              <button class="btn btn-primary">Clear History</button>
+            </div>
+          </div>
+        </div>
+        <!-- Card Section -->
+        <div>
+          <div class="grid grid-cols-3">
+            <div class="card w-96 bg-base-100 card-md shadow-sm">
+              <div class="card-body">
+                <h2 class="card-title">Shop Ease</h2>
+                <h2 class="card-title">Fix Mobile Button Issue</h2>
+                <p>
+                  Debug using Chrome DevTools, check for overlapping elements, and
+                  ensure onClick works properly and ensure onClick works properly
+                </p>
+                <div class="justify-end card-actions">
+                  <p>
+                    Deadline <br />
+                    <span class="text-xl text-bold">21 March 2025</span>
+                  </p>
+                  <button class="btn btn-primary">Completed</button>
                 </div>
               </div>
-              <div
-                class="flex items-center justify-center bg-base-100 p-16 gap-4 rounded-2xl col-span-1"
-              >
-                <div id="background-color" class="bg-blue-200 p-4 rounded-full">
-                  <img src="./assets/calender.png" alt="" />
+            </div>
+            <div class="card w-96 bg-base-100 card-md shadow-sm">
+              <div class="card-body">
+                <h2 class="card-title">Shop Ease</h2>
+                <h2 class="card-title">Fix Mobile Button Issue</h2>
+                <p>
+                  Debug using Chrome DevTools, check for overlapping elements, and
+                  ensure onClick works properly and ensure onClick works properly
+                </p>
+                <div class="justify-end card-actions">
+                  <p>
+                    Deadline <br />
+                    <span class="text-xl text-bold">21 March 2025</span>
+                  </p>
+                  <button class="btn btn-primary">Completed</button>
                 </div>
-                <div>
-                  <h2 class="text-lg">
-                    Wed, <br /><span class="font-bold">Jul 28 2025</span>
-                  </h2>
+              </div>
+            </div>
+            <div class="card w-96 bg-base-100 card-md shadow-sm">
+              <div class="card-body">
+                <h2 class="card-title">Shop Ease</h2>
+                <h2 class="card-title">Fix Mobile Button Issue</h2>
+                <p>
+                  Debug using Chrome DevTools, check for overlapping elements, and
+                  ensure onClick works properly and ensure onClick works properly
+                </p>
+                <div class="justify-end card-actions">
+                  <p>
+                    Deadline <br />
+                    <span class="text-xl text-bold">21 March 2025</span>
+                  </p>
+                  <button class="btn btn-primary">Completed</button>
                 </div>
               </div>
             </div>
           </div>
-          <div class="bg-blue-100 text-center rounded-2xl">
-            <h3>Activity Log</h3>
-            <button class="btn btn-primary">Clear History</button>
-          </div>
         </div>
-      </div>
-      <div></div>
-    </main>
+      </main>
+    </section>
+   
     <script src="script.js"></script>
   </body>
 </html>
